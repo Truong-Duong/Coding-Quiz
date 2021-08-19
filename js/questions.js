@@ -1,72 +1,34 @@
-// creating an array and passing the number, questions, options, and answers
-let questions = [
-    {
-    numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
-    options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
-    ]
+var questionsArray = [
+  {
+    title: "Inside which HTML element do we put the JavaScript?",
+    options: ["<js>","<scripting>","<script>","<javascript>"],
+    answer: "<script>",
   },
-    {
-    numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
-    options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
-    ]
-  },
-    {
-    numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
-    options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
-    ]
-  },
-    {
-    numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
-    options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
-    ]
-  },
-    {
-    numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
-    ]
-  },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+  {
+    title: "How many data types are recognized in Javascript?",
+    options: ["One", "Two", "Three", "Four", "Five"],
+    answer: "Three",
+  },
+  {
+    title: "What does the JSON.stringify method accomplish?",
+    options: [
+      "Creates an empty string",
+      "Creates a JSON object",
+      "Converts an object to a string",
+      "Converts a string to an object",
+      "Creates a JSON String",
+    ],
+    answer: "Converts an object to a string",
+  },
+  {
+    title: "What must be true for this statement to pass: if(test1 && test2)",
+    options: [
+      "test1 must equal true",
+      "test2 must equal true",
+      "test1 must be false and test2 must be true",
+      "test1 and test2 must be true",
+    ],
+    answer: "test1 and test2 must be true",
+  },
 ];
