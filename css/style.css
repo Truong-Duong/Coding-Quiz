@@ -1,0 +1,76 @@
+/* Universal Styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header Section Styling */
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding: 30px;
+    float: center;
+}
+
+/* Quiz Section Styling */
+.scoreBoard {
+    padding: 25px;
+}
+
+.timeCount {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.startHeader {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    
+}
+.startContent {
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+}
+
+.Button {
+    text-align: center;
+}
+
+.startButton {
+    font-size: 50px;
+    padding: 10px 50px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 4px solid;
+}
+
+.startButton:hover {
+    background-color: white;
+    color: black;
+    border: 4px solid;
+}
+
+/* Footer Section Styling */
+footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    color: white;
+    height: 100px;
+    padding: 30px;
+    position: fixed;
+}
+
+footer h3 {
+    text-align: center;
+    font: 25px;
+}
