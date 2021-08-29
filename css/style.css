@@ -12,50 +12,91 @@ header {
     background: black;
     color: white;
     text-align: center;
-    height: 100px;
+    height: auto;
     padding: 30px;
     float: center;
 }
 
+header .title {
+    font-size: 100px;
+
+}
 /* Quiz Section Styling */
-.scoreBoard {
+.timer {
     padding: 25px;
 }
 
-.timeCount {
-    padding-left: 25px;
-    padding-bottom: 25px;
-}
 
-.startHeader {
+
+.question {
     text-align: center;
     font-size: 100px;
-    font-weight: bolder;
-    
-}
-.startContent {
-    text-align: center;
-    font-size: 50px;
-    line-height: 100px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.Button {
+.answer {
     text-align: center;
+    font-size: 50px;
+    padding-bottom: 25px;
+    position: relative;
 }
 
 .startButton {
-    font-size: 50px;
-    padding: 10px 50px;
-    cursor: pointer;
-    color: white;
-    background-color: black;
-    border: 4px solid;
+    text-align: center;
 }
 
-.startButton:hover {
+.button {
+    text-align: center;
+    font-size: 50px;
+    padding: 0 25px;
+    background-color: black;
+    color: white;
+    border: 5px solid grey;
+}
+
+.button:hover {
     background-color: white;
     color: black;
-    border: 4px solid;
+    border: 5px solid grey;
+}
+
+.feedBack {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/* Score Section Styling */
+.scoreHeader {
+    text-align: center; 
+    font-size: 100px;
+    padding: 25px;
+}
+
+.answerInit {
+    text-align: center;
+    font-size: 50px;
+}
+
+#ints {
+    font-size: large;
+}
+
+.scoreForm {
+    text-align: center;
+    font-size: 15px;
+    padding: 25px;
+}
+
+.ini {
+    font-size: 25px;
+}
+
+#scoreSubmit {
+    text-align: center;
+    margin-left: 1100px;
 }
 
 /* Footer Section Styling */
@@ -65,7 +106,7 @@ footer {
     bottom: 0;
     background: black;
     color: white;
-    height: 100px;
+    height: auto;
     padding: 30px;
     position: fixed;
 }

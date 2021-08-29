@@ -7,39 +7,34 @@
     <title>Coding Quiz</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
     <!-- Header Section -->
     <header>
-        <h1>Full-Stack Web Development Quiz</h1>
+        <h1 class="title">Full-Stack Web Development Quiz</h1>
     </header>
 
     <!-- Quiz Section -->
-    <div id="scoreBoard">
-        <h1 class="scoreBoard"><strong>Leader Board: </strong></h1>
-    </div>
-
-    <div id="timer">
-        <h1 class="timeCount"><strong>Time: </strong><span id="timeCount">60</span></h1>
+    <div id="timer" class="timer">
+        <h1>Time Left: <span id="timeCount">60</span></h1>
     </div>
     
-    <div id="start">
-        <h1 id="startHeader" class="startHeader">Code Quiz</h1>
-        <p id="startContent" class="startContent">
+    <div id="content" class="content">
+        <h1 id="question" class="question">Code Quiz</h1>
+        <p id="answer" class="answer">
             Press start to begin the quiz!
             <br>
             You will have 60 seconds to complete 10 questions.
             <br>
-            Every incorrect answer will take 5 seconds penalty.
+            Every incorrect answer will take 1 seconds penalty.
             <br>
             Your final score will the the amount of time left.
         </p>
-        <div class="Button"><button class="startButton" id="startButton" type="start">Start</button></div>
+        <div class="startButton"><button id="startButton" class="button" type="start">Start</button></div>
     </div>
 
-    <div id="quiz"></div>
-
+    <div id="feedback" class="feedBack"></div>
+    
     <!-- Footer Section -->
     <footer>
        <h3>Created, Designed, and Maintained by <span>Truong Duong</span> | Copyright &copy; 2021 TXD. Confidential and Proprietary. All Rights Reserved.</h3>
@@ -47,5 +42,7 @@
 
     <!-- Javascript Section -->
     <script src="./js/script.js"></script>
+    <script src="./js/question.js"></script>
+
 </body>
 </html>

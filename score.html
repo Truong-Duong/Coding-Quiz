@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 class="title">Full-Stack Web Development Quiz</h1>
+    </header>
+
+    <!-- Score Section -->
+    <ul id="scoreList" class="scoreStyle"></ul>
+    <div id="content">
+        <h1 id="question" class="scoreHeader">Your score was: <span id="currentscore"></span></h1>
+        <p id="answerText" class="answerInit">Enter your initials: </p>
+        <form id="scoreForm" class="scoreForm">
+            <label for="initials" class="initLabel"><span class="ini">Initials: </span></label>
+            <input type="text" id="ints" />
+        </form>
+    </div>
+    
+    <input type="submit" value="Submit" class="button" id="scoreSubmit" />
+    <button id="returnButton" class="button" type="start">Return</button>
+
+    <!-- Footer Section -->
+    <footer>
+        <h3>Created, Designed, and Maintained by <span>Truong Duong</span> | Copyright &copy; 2021 TXD. Confidential and Proprietary. All Rights Reserved.</h3>
+     </footer>
+    <script src="./js/score.js"></script>
+</body>
+</html>
